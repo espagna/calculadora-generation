@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora con js😎</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="text-center col-sm-11">😎🖖BIENVENIDO/A A LA CALCULADORA MAS CHIDA😎✨</h1>
+
+    <br>
+    <br>
+    <div class="container text-center">
+    <form action="" id="miFormulario">
+        <label for="numero1">Numero 1</label>
+        <input type="number" name="numero1" id="valor1" class="col-sm-4" placeholder="Escribe el primer valor">
+    
+        
+        
+        <br>
+        <br>
+        <label for="numero2">Numero 2</label>
+        <input type="number" name="numero2" id="valor2" class="col-sm-4" placeholder="Escribe el segundo valor">
+    </div>
+        <br>
+
+        <div class="container text-center">   
+            <button type="button" class="btn btn-primary col-sm-4" onclick="sumar()">sumar</button>
+            <button type="button" class="btn btn-success col-sm-4" onclick="restar()">restar</button>
+            <button type="button" class="btn btn-info col-sm-4" onclick="multiplicar()">multiplicar</button>
+            <button type="button" class="btn btn-warning col-sm-4" onclick="dividir()">dividir</button>
+    
+            <p class="col-sm-11" id="resultado">Resultado:   <span id="elresultado">👀</span></p>
+        </div> 
+
+        <br>
+        <br>
+        <center><button onclick="limpiar()" class="">Limpiar campos</button></center>
+        <br>
+        <br>
+
+
+    </form>
+    <footer class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <p>Made by Alan España</p>   
+            </div>
+            <div class="col-sm-9">
+                <a href="https://github.com/espagna" target="_blank" >My Github</a>
+                <span> | </span>
+                <a href="https://es.wikipedia.org/wiki/Pol%C3%ADtica_de_privacidad" target="_blank" >Políticas de privacidad</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="scripts/index.js"></script>
+</body>
+</html>

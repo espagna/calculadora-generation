@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+}
+h1{
+    color: whitesmoke;
+}
+label{
+    color: yellow;
+    font-weight: bold;
+    
+}
+footer{
+    font-weight: bold;
+
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+#resultado{
+    font-weight: bold;
+    font-size: 40px;
+}
